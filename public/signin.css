@@ -1,0 +1,130 @@
+
+element.style {
+}
+.sign-in{
+    color:black;
+    padding:15px;
+}
+.remember-me{
+    color: black;
+    padding: 10px;
+}
+.from-too{
+    color: black;
+}
+.sign-in-form{
+    width:500px;
+}
+.form-box{
+    border-radius: 20px;
+    background-color: #e1e2e3;
+    padding: 30px;
+    width:500px;
+    height:750;
+}
+.form-box p {
+    color: black;
+}
+.form-signin {
+    max-width: 500px;
+    padding: 15px;
+}
+.m-auto {
+    margin: auto!important;
+}
+.w-100 {
+    width: 100%!important;
+}
+.w-25 {
+    width: 25%!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+main {
+    display: block;
+}
+.text-center {
+    text-align: center!important;
+}
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    filter: contrast(120%);
+}
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(255, 255, 255, 0.7)
+      ),
+      url("https://images.unsplash.com/photo-1628727531507-8a8fcec87e09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .form-box{
+    opacity: 80%;
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+      inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  .remember-me{
+    text-align: left;
+  }
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}

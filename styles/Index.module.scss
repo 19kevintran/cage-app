@@ -1,0 +1,27 @@
+@import "./config.scss";
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 50px;
+  width: 100vw;
+  height: 100vh;
+}
+.dashbaordButton {
+  // background-color: 	#1DA1F2;
+  background-color: $primary;
+  color: #fff;
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.dashboardBusiness {
+  background-color: #1da1f2 !important;
+}

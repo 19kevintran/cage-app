@@ -1,0 +1,68 @@
+.signin {
+  color: black;
+}
+.rememberme {
+  color: black;
+  padding: 10px;
+  text-align: left;
+}
+.fromtoo {
+  color: black;
+}
+/* .formfloating{
+  width:100%;
+  background-color: white;
+  color: black;
+  border:1px solid #ced4da;
+} */
+.formcontrol {
+  width: 100%;
+  background-color: white;
+  color: black;
+  border: 1px solid #ced4da;
+  height: calc(3.5rem + 2px);
+  padding: 20px;
+  border-radius: 10px;
+}
+.signinform {
+  width: 500px;
+  color: black;
+}
+.formbox {
+  border-radius: 20px;
+  background-color: #e1e2e3;
+  padding: 30px;
+  width: 500px;
+  height: 750;
+  opacity: 80%;
+}
+.formbox p {
+  color: black;
+}
+.formsignin {
+  max-width: 500px;
+  padding: 15px;
+  margin: auto;
+}
+.mauto {
+  margin: auto;
+}
+.loginbutton {
+  width: 100%;
+  height: calc(3.5rem + 2px);
+  background-color: blue;
+  color: white;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+}
+.w-25 {
+  width: 25% !important;
+}
+
+.textcenter {
+  text-align: center;
+}
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}

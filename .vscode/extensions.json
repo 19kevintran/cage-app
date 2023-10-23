@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "rangav.vscode-thunder-client",
+    "mhutchie.git-graph",
+    "esbenp.prettier-vscode",
+    // "vscodevim.vim",
+    "ms-vsliveshare.vsliveshare"
+  ]
+}

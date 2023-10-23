@@ -1,0 +1,21 @@
+version: '3'
+
+networks:
+  web:
+    external: true
+
+services:
+  app:
+    build: .
+    image: cage-app:latest
+    restart: always
+
+    labels:
+      - "treafik.enable=true"
+      - "traefik.http.routers.cage.entrypoints=http"
+      - "traefik.httperouters.cage.rule=Host(`cage.romplabs.com`)"
+      - "traefik.http.services.cage.loadbalancer.server.port=3000"
+      - "traefik.docker.network=web"
+
+    networks:
+      - web
